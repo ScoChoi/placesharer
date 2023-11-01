@@ -61,7 +61,7 @@ npm start
 **The frontend will be accessible at http://localhost:3000, and the backend server will be running at http://localhost:5000.**
 
 ## Usage
-Describe how users can interact with the PlaceSharer application, including navigation, features, and any other relevant details.
+Users are able to upload an image of a place, along with a name, description, and address. Users will also be able to view the places of different users and view an interactive map of the location given by the address.
 
 ## Documentation
 For detailed information about the API endpoints and how to interact with them, refer to the API documentation.
