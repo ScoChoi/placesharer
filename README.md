@@ -58,7 +58,7 @@ https://placesharer-7cf31.web.app/
 ```bash
 npm start
 ```
-**The frontend will be accessible at http://localhost:3000, and the backend server will be running at http://localhost:3000.**
+**The frontend will be accessible at http://localhost:3000, and the backend server will be running at http://localhost:5000.**
 
 ## Usage
 Describe how users can interact with the PlaceSharer application, including navigation, features, and any other relevant details.
