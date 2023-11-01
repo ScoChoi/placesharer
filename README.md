@@ -1,77 +1,76 @@
-PlaceSharer
-PlaceSharer Logo
+# PlaceSharer
 
-PlaceSharer is a web application that enables users to share and discover interesting places. This repository contains both the frontend and backend code for the PlaceSharer application.
 
-Table of Contents
-Features
-Getting Started
-Prerequisites
-Installation
-Usage
-Documentation
-Contributing
-License
-Contact
-Features
-Place Discovery: Explore a variety of interesting places shared by the community.
-Place Sharing: Contribute by sharing your favorite places with detailed information.
-User Authentication: Securely log in and manage your profile.
-Interactive Maps: Visualize places on an interactive map.
-Getting Started
-Prerequisites
-Node.js: Download and install Node.js
-MongoDB: Install MongoDB
-Installation
-Clone the repository:
+PlaceSharer is a web application that empowers users to share and discover intriguing places. This repository contains the source code for both the frontend and backend components of the PlaceSharer application.
 
-bash
-Copy code
-git clone https://github.com/ScoChoi/placesharer.git
-Navigate to the frontend and backend directories:
+## Features
 
-bash
-Copy code
-cd placesharer/frontend
-bash
-Copy code
-cd placesharer/backend
-Install dependencies:
+- **Place Discovery:** Explore a diverse range of interesting places shared by the community.
+- **Place Sharing:** Contribute by sharing your favorite places along with detailed information.
+- **User Authentication:** Securely log in and manage your profile.
+- **Interactive Maps:** Visualize places on an interactive map.
 
-bash
-Copy code
-npm install
-Create a .env file in the backend directory and configure the following environment variables:
+## Getting Started
 
-env
-Copy code
-PORT=3000
-MONGODB_URI=mongodb://localhost:27017/placesharer
-JWT_SECRET=your_jwt_secret_key
-Replace your_jwt_secret_key with a secure secret key for JWT authentication.
+### Prerequisites
 
-Run the application:
+- Node.js: [Download and install Node.js](https://nodejs.org/)
+- MongoDB: [Install MongoDB](https://docs.mongodb.com/manual/installation/)
 
-bash
-Copy code
+### Installation
+
+1. **Clone the repository:**
+
+ ```bash
+   git clone https://github.com/ScoChoi/placesharer.git
+ ```
+
+2. **Navigate to the `frontend` and `backend` directories:**
+   
+  ```bash
+   cd placesharer/frontend
+  ```
+  ```bash
+   cd placesharer/backend
+  ```
+
+3. **Install dependencies:**
+
+  ```bash
+   npm install
+  ```
+
+4. **Create a .env file in the backend directory and configure the following environment variables:**
+
+  ```bash
+   PORT=3000
+   MONGODB_URI=mongodb://localhost:27017/placesharer
+   JWT_SECRET=your_jwt_secret_key
+  ```
+   **Replace your_jwt_secret_key with a secure secret key for JWT authentication.**
+
+5. **Run the application:**
+
+```bash
 npm start
-The frontend will be accessible at http://localhost:3000, and the backend server will be running at http://localhost:3000.
+```
+**The frontend will be accessible at http://localhost:3000, and the backend server will be running at http://localhost:3000.**
 
-Usage
+## Usage
 Describe how users can interact with the PlaceSharer application, including navigation, features, and any other relevant details.
 
-Documentation
+## Documentation
 For detailed information about the API endpoints and how to interact with them, refer to the API documentation.
 
-Contributing
+## Contributing
 If you would like to contribute to the development of PlaceSharer, please follow the guidelines in CONTRIBUTING.md.
 
-License
+## License
 This project is licensed under the MIT License.
 
-Contact
+## Contact
 For any inquiries, please contact the project owner:
 
-Name: Your Name
-Email: your.email@example.com
-GitHub: Your GitHub Profile
+- **Name:** Scott Choi
+- **Email:** ascottychoi@gmail.com
+- **GitHub:** https://github.com/ScoChoi
