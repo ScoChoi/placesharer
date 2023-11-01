@@ -3,6 +3,10 @@
 
 PlaceSharer is a web application that empowers users to share and discover intriguing places. This repository contains the source code for both the frontend and backend components of the PlaceSharer application.
 
+## Deployed
+
+https://placesharer-7cf31.web.app/
+
 ## Features
 
 - **Place Discovery:** Explore a diverse range of interesting places shared by the community.
