@@ -1,7 +1,7 @@
 # PlaceSharer
 
 
-PlaceSharer is a web application that empowers users to share and discover intriguing places. This repository contains the source code for both the frontend and backend components of the PlaceSharer application.
+PlaceSharer is a web application build using the MERN stack that empowers users to share and discover intriguing places. This repository contains the source code for both the frontend and backend components of the PlaceSharer application.
 
 ## Deployed
 
